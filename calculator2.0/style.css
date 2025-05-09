@@ -6,14 +6,21 @@
 }
 
 .main-wrapper{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
 }
 
-.container {
+.temp-container{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container1 {
     max-width: 200px;
     height: 300px;
     margin: 20px;
@@ -22,9 +29,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container-2{
-    position: absolute;
-    left: 60%;
+.container2{
     width: 200px;
     max-height: 300px;
     margin: 20px;
